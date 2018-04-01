@@ -4,29 +4,29 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class GenericData {
-private Map<String, Object> gdMap = new HashMap<String, Object>();
+private Map<String, Object> data = new HashMap<String, Object>();
 
 public GenericData() {
 	
 }
 public GenericData(Map gd) {
-	this.gdMap = gd; 
+	this.data = gd; 
 }
 
 public void setGdMap(String key, Object value) {
-	gdMap.put(key, value);
+	data.put(key, value);
 }
 
 public void setGdMap(String mapName, Map<String, Object> rh) {
-	gdMap.put(mapName, rh);
+	data.put(mapName, rh);
 }
 
 public Map<String, Object> getGdMap() {
-	return this.gdMap;
+	return this.data;
 }
 
 public Object getGdMapValue(String key) {
-	return this.gdMap.get(key);
+	return this.data.get(key);
 }
 
 
