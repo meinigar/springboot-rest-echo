@@ -2,7 +2,7 @@ package net.meinigar.samples.sbrest.domain;
 
 import java.util.HashMap;
 import java.util.Map;
-
+//Generic class for data structure
 public class GenericData {
 private Map<String, Object> data = new HashMap<String, Object>();
 
